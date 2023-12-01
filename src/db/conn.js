@@ -1,6 +1,6 @@
 const  mongoose = require('mongoose');
 //Set up default mongoose connection
-const mongoDB = 'mongodb://127.0.0.1/Health&Fitnes';
+const mongoDB = 'mongodb+srv://mohdaqib12011004:0mHQFykjlUU7imll@cluster0.jfjoddb.mongodb.net/Health&Fitnes';
 mongoose.connect(mongoDB, { useNewUrlParser: true }).then(() => {
     console.log("sucessful");
 }).catch(() => {
